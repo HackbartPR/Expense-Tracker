@@ -1,0 +1,111 @@
+/* ======= SECTION SEARCH =======*/
+.section-search {
+  flex-direction: row;
+
+  min-width: 800px;
+
+  padding: 2rem;
+
+  background-color: var(--color-white);
+
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  font: 400 1rem var(--font-nunito);
+}
+
+.section-search__form {
+  position: relative;
+  width: 100%;
+
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.form__label-date {
+  width: 7rem;
+}
+
+.form__label-date__input {
+  position: relative;
+  width: 100%;
+
+  padding: 0.2rem;
+
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+
+  font-family: var(--font-nunito);
+}
+
+.form__label-category {
+  width: 7.5rem;
+}
+
+.form__label-category__select {
+  position: relative;
+  width: 100%;
+
+  padding: 0.2rem;
+
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+
+  font-family: var(--font-nunito);
+}
+
+.form__label-title {
+  width: 12rem;
+}
+
+.form__label-title__input {
+  position: relative;
+  width: 100%;
+
+  padding: 0.2rem;
+
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+
+  font-family: var(--font-nunito);
+}
+
+.form__label-value {
+  width: 6rem;
+}
+
+.form__label-value__input {
+  position: relative;
+  width: 100%;
+
+  padding: 0.2rem;
+
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+
+  font-family: var(--font-nunito);
+}
+
+.form__button {
+  position: relative;
+  height: 2rem;
+  width: 6rem;
+
+  border: none;
+  border-radius: 0.2rem;
+
+  align-self: flex-end;
+
+  background-color: var(--color-blue);
+
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+
+  font-family: var(--font-nunito);
+  font-weight: 600;
+}
+
+.form__button:hover {
+  background-color: var(--color-purple);
+}

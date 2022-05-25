@@ -1,0 +1,37 @@
+/* ======= SECTION RESULT =======*/
+.section-result {
+  flex-direction: row;
+  justify-content: space-between;
+
+  min-width: 800px;
+  padding: 2rem;
+
+  background-color: var(--color-white);
+
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  font: 400 1rem var(--font-nunito);
+}
+
+.section-result__search-month {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.section-result__income {
+  gap: 0.5rem;
+}
+
+.income__value {
+  font: 500 1rem var(--font-nunito);
+  color: var(--color-dark-blue);
+}
+
+.section-result__expense {
+  gap: 0.5rem;
+}
+
+.section-result__balance {
+  gap: 0.5rem;
+}
